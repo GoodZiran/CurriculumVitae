@@ -8,6 +8,9 @@ html {
 
 }
 
+body{
+  overflow-x: hidden;
+}
 h3{
   margin: 10px;
 }
@@ -22,7 +25,7 @@ li{
 .menu{
   background-image: radial-gradient( circle at center, #080808, #333333); 
   box-shadow: 0 0 20px 20px rgb(48, 33, 102);
-  border-radius: 5%;
+  border-radius: 10%;
   position: fixed;
   top: 0;
   display: flex;
@@ -30,10 +33,10 @@ li{
   justify-content: center;
   align-items: center;
   z-index: 100;
-  width: 100%;
+  width: 99%;
   height: 50px;
   padding: 10px 0;
-  
+
 }
   .perfil {
     max-width: 500px;
@@ -134,19 +137,92 @@ li{
 
 
 
+
+
+
+
+.div-linkedln{
+
+  background-color: white;
+  border-radius: 10%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fab.fa-linkedin {
+  color: #0077B5;
+  font-size: 60px;
+
+}
+
+
+.div-linkedln:hover{
+  height: 60px;
+  width: 60px;
+  .fab.fa-linkedin:hover {
+    color: #000000;
+    font-size: 80px;
+
+
+  }
+}
+
+
+
+
+
+
+.div-github{
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.div-github:hover{
+  height: 75px;
+  width: 75px;
+  .fab.fa-github:hover{
+    color: #000000;
+    font-size: 80px;
+  
+  }
+}
+
+.fab.fa-github {
+  color: rgb(30, 48, 80);
+  font-size: 60px;
+
+}
+
+
+
+
+
 .div-instagram{
+  margin-left: 25px;
   background-image: radial-gradient(circle at bottom left, #F9DC64,   #FF553E , #B5008E);
   width: 53px;
   height: 53px;
   border-radius: 15%;
-  margin-left: 10px;
+
 }
 
 .fab.fa-instagram{
   color: #ffffff;
   font-size: 50px;
   margin-top: 2px;
-  margin-left: 2px;
+  margin-left: 3px;
   margin-right: 3px;
   margin-bottom: 2px;
 
@@ -157,81 +233,71 @@ li{
   height: 73px;
   .fab.fa-instagram{
   font-size: 70px;
-  margin-top: 2px;
-  margin-left: 2px;
-  margin-right: 3px;
-  margin-bottom: 2px;
+
 }
 }
 
 
 
-.fab.fa-linkedin {
-  color: #0077B5;
-  font-size: 60px;
+
+
+.div-whatsapp{
+  margin-left: 25px;
   background-color: white;
-  border-radius: 10%;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  }
-  
-.fab.fa-linkedin:hover {
-    height: 60px;
-    width: 60px;
-  color: #000000;
-  font-size: 80px;
-
-  }
-
-
-
-.fab.fa-github {
-  color: rgb(30, 48, 80);
-  font-size: 60px;
-  margin-left: 10px;
-
-  background-color: white;
-  border-radius: 50%;
-  height: 55px;
-  width: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fab.fa-github:hover{
-  color: #000000;
-  font-size: 80px;
-  height: 75px;
-  width: 65px;
-}
-  
-
-
-.fab.fa-whatsapp-square{
-  color: rgb(1, 172, 1);
-  font-size: 60px;
-  margin-left: 10px;
-
-  background-color: white;
-  border-radius: 50%;
-  height: 55px;
+  border-radius: 40%;
+  height: 50px;
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fab.fa-whatsapp-square:hover{
-  color: #000000;
-  font-size: 80px;
-  height: 70px;
+.div-whatsapp:hover{
+  height: 65px;
   width: 65px;
-}
+  .fab.fa-whatsapp-square:hover{
+    color: #000000;
+    font-size: 80px;
   
+  }
+}
+.fab.fa-whatsapp-square{
+  color: rgb(1, 172, 1);
+  font-size: 60px;
+
+}
+
+
+
+
+
+
+
+
+.div-email{
+  margin-left: 25px;
+  background-color: rgb(0, 0, 0);
+border-radius: 10%;
+  height: 45px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-email:hover{
+  height: 60px;
+  width: 80px;
+  .fas.fa-envelope:hover{
+    color: #ffffff;
+    font-size: 80px;
+  
+  }
+}
+.fas.fa-envelope{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+
+}
 
 
