@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
+<!-- Na cabeça do projeto temos informações necessárias como o titúlo, link da fonte e do site dos icones
+e de onde deve ser tirado o estilo (style.css)-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +12,9 @@
 
 </head>
 <body >
-
+<!-- No corpo do projeto começamos com o Menu que tem os links internos (utilizando o a href)
+Em todo o código vemos a função id, que indica aonde o link deve apontar. Em alguns casos, precisei
+colocar em lugares diferentes para que quando a função acontecesse enviasse de forma agradável-->
     <div class="menu">
         <a href="#perfil"><h3 style="color: rgb(187, 209, 243)" >Sobre Mim</h3></a>
         <a href="#experiencia"><h3 style="color: rgb(187, 209, 243)">Expêriencia</h3></a>
@@ -23,14 +27,16 @@
 <br id="perfil"><br><br><br><br>
 
 <br>
+<!-- Em perfil temos algumas informações pessoais, decidi não colocar meu endereço real no momento
+Aqui já somos apresentados aos primeiros links externos que abrem uma nova guia (usando o comando target) Possui meu nome completo e RU como primeira informação-->
     <div class="perfil" >
         <h1>Jhonatan Gabriel Teixeira - 3987279</h1>
-        <img src="perfil.png"Este é Jhonatan Gabriel Teixeira - 3987279" width="290" height="290">
+        <img src="perfil.png"Este é Jhonatan Gabriel Teixeira - 3987279 width="290" height="290">
         <h3>18 anos, Masculino</h3>
         <h3>Rua dos Programadores, 33.301.333, Programalândia - Paraná</h3>
         <h3>(41) 9 9111 - 7099</h3>
-        <h3>e-mail: <a href="mailto:jhonatanteixeira1116@gmail.com" style="color: rgb(31, 100, 202);">jhonatanteixeira1116@gmail.com</a></h3>
-        <h3>Linkedln: <a href="https://www.linkedin.com/in/jhonatan-gabriel-teixeira-68b118254/" title="Link para o perifl do Linkedln" style="color: rgb(31, 100, 202);">@jhonatan-gabriel-teixeira </a></h3>
+        <h3>e-mail: <a href="mailto:jhonatanteixeira1116@gmail.com" target="_blank" title="Envie-me um email" style="color: rgb(31, 100, 202);">jhonatanteixeira1116@gmail.com</a></h3>
+        <h3>Linkedln: <a href="https://www.linkedin.com/in/jhonatan-gabriel-teixeira-68b118254/" target="_blank" title="Link para o perifl do Linkedln" style="color: rgb(31, 100, 202);">@jhonatan-gabriel-teixeira </a></h3>
         <h3>Objetivos</h3>
         <h4 style="width: 70%; text-align: center; margin: auto;"   id="experiencia">Buscando colocar em prática no ambiente profissional minhas habilidades comportamentais e técnicas, 
             sempre prezando o bom convívio e a entrega excelente.</h4>
@@ -42,7 +48,7 @@
     <br> <br><br>
 
 
-    
+    <!--Nessa parte, tem o código da parte de Experiência, onde usamos as classes criadas em css "informacoes", "div-pai-experiencia" e "divs. Possui o icone flask"-->
     <div class="informacoes">
         <i class="fas fa-flask"></i>
     </div>
@@ -79,7 +85,7 @@
 
     <br> <br>
 
-
+<!-- Formação Acadêmica segue o mesmo que a Experiência, mudando apenas que não tem dois divis filho dentro, portanto não precisando da lógica especial da Experiencia-->
 
     <div class="informacoes">
         <i class="fas fa-graduation-cap" id="formacao" ></i>
@@ -103,7 +109,7 @@
     
     <br>   <br>
 
-
+<!-- Habilidades é muito parecido com Formação Acadêmica, mudando apenas o seu conteúdo-->
 
     <div class="informacoes">
     <i class="fas fa-cogs"></i>
@@ -144,7 +150,7 @@
     
     <br><br>    
 
-
+<!-- Chegando na parte de Contato, temos os links para redes externas. Usando a animação dos divis de css. Abrem uma nova guia quando clicados-->
 
     <div class="redes" id="contatos">
 

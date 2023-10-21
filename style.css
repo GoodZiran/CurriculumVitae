@@ -1,3 +1,8 @@
+
+
+/* Aqui temos o ccs padrão para os elementos do site no geral. Defini a cor de fundo como uma 
+gradiente, a cor do texto como branco, a fonte escolhida e as proporções. No h3 defini que
+a margem deverá ser padrão de 10px e nos li que o texto deve estar mais a esquerda*/
 html {  
   background-image: radial-gradient( circle at center, #080808, #333333); 
   color: white;
@@ -8,9 +13,6 @@ html {
 
 }
 
-body{
-  overflow-x: hidden;
-}
 h3{
   margin: 10px;
 }
@@ -21,7 +23,9 @@ li{
 
 
 
-
+/* Na classe menu se encontra o estilo do menu que tem links para dentro da própria página.
+Os códigos façam com que o menu fique fixo no topo, tenha uma cor de fundo igual o html geral,
+tenha uma box shadow, e fique sempre centralizado, além de outros elementos visuais*/
 .menu{
   background-image: radial-gradient( circle at center, #080808, #333333); 
   box-shadow: 0 0 20px 20px rgb(48, 33, 102);
@@ -32,12 +36,13 @@ li{
   text-align: center;
   justify-content: center;
   align-items: center;
-  z-index: 100;
   width: 99%;
   height: 50px;
   padding: 10px 0;
 
 }
+
+/* Aqui eu uso esta classe no div do meu perfil, para um aspecto mais elegante*/
   .perfil {
     max-width: 500px;
     width: 90%; /* Define a largura do contêiner em relação à largura da janela */
@@ -53,7 +58,7 @@ li{
 
 
 
-
+/* Classe para os divs que contenham as informações (Experiencia, Formação Acadêmica e Habilidades)*/
   .informacoes {
     max-width: 500px;
     width: 100%;
@@ -67,7 +72,8 @@ li{
 }
 
 
-
+/* Nas classes div-pai-experiencia e divs, usei um método de um div dentro de outro para que 
+consiga colocar 2 divs lado a lado*/
 .div-pai-experiencia{
   display: flex;
   text-align: center;
@@ -93,6 +99,8 @@ li{
 
 }
 
+
+/* Aqui é um div para as redes sociais que ficam no inferior do site*/
 .redes{
   text-align: center;
   margin: auto;
@@ -113,10 +121,7 @@ li{
 }
 
 
-.icones{
-  text-align: center;
-}
-
+/* Nesses icones abaixo eu coloquei um padrão de tamanho e cores para os icones de Experiencia, Formação Acadêmica e Habilidades*/
 
 
   .fas.fa-graduation-cap{
@@ -138,7 +143,9 @@ li{
 
 
 
-
+/*Em todo o código abaixo existe um padrão que implica no icone e um div de fundo, por estética.
+A lógica daqui é que eu crio o icone para a rede social externa e um div para acompanhar de fundo
+Então, quando passamos o mouse pelo div de fundo, acontece uma animação de os dois aumentarem de tamanho (usando o hover)*/
 
 
 .div-linkedln{
@@ -271,7 +278,7 @@ li{
 
 
 
-
+/*Propositalmente, este é o único ícone que não muda de cor*/
 
 
 .div-email{
@@ -289,7 +296,7 @@ border-radius: 10%;
   height: 60px;
   width: 80px;
   .fas.fa-envelope:hover{
-    color: #ffffff;
+
     font-size: 80px;
   
   }
