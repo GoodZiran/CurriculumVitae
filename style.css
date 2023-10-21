@@ -1,0 +1,125 @@
+html {  
+  background-image: radial-gradient( circle at center, #080808, #333333); 
+  color: white;
+  font-family: 'Sometype Mono', monospace;
+
+
+
+}
+  
+  .perfil {
+    max-width: 500px;
+    width: 90%; /* Define a largura do contêiner em relação à largura da janela */
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 2%;
+    background-color: rgb(48, 33, 102);
+    color: white;
+    overflow: auto;
+    box-shadow: 5px 5px 10px rgb(48, 33, 102);
+
+}
+
+
+
+  .experiencia {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+
+    color: white;
+    overflow: auto;
+
+}
+
+  .formacao {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 2%;
+    background-color: rgb(48, 33, 102);
+    color: white;
+    box-shadow: 5px 5px 10px rgb(48, 33, 102);
+
+
+}
+
+
+
+.div-pai-experiencia{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  
+
+}
+
+
+.divs{
+  padding: 10px;
+  max-width: 500px;
+  height: 80%;
+  width: 60%; /* Defina a largura desejada para cada caixa */
+  border-radius: 2%;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgb(48, 33, 102);
+  background-color: rgb(48, 33, 102);
+  margin-right: 30px;
+
+
+
+}
+
+.redes{
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  border-radius: 2%;
+  width: 97%;
+  box-shadow: 5px 5px 10px rgb(194, 175, 247);
+  padding: 10px;
+  height: 80%;
+}
+
+
+.icones{
+  text-align: center;
+}
+
+
+
+  .fas.fa-graduation-cap{
+  color: rgb(193, 127, 255);
+  font-size: 60px;
+
+}
+
+
+
+
+
+.fas.fa-cogs{
+  color: rgb(193, 127, 255);
+  font-size: 60px;
+}
+  .fab.fa-linkedin {
+    color: #0077B5;
+    }
+  
+        .fab.fa-linkedin:hover {
+  color: #000000;
+  }
+  
+  .fab.fa-facebook-square {
+    color: rgb(30, 48, 80);
+    }
+  
+        .fab.fa-facebook-square:hover {
+  color: #000000;
+  }
+
+
